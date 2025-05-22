@@ -51,6 +51,10 @@ img {
   height: auto;
 }
 
+li{
+  list-style-type: none;
+}
+
 p {
   font-size: 1em;
 }
@@ -61,6 +65,8 @@ a {
 }
 
 a:hover {
+  color: blueviolet;
+  cursor: pointer;
   text-decoration: underline;
 }
 
